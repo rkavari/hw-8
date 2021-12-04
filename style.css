@@ -151,3 +151,7 @@ p.problem-statement {
 .screens {
     margin-top: -5%;
 }
+
+.menu {
+    opacity: 0%;
+}
