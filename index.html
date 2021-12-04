@@ -8,8 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raga Kavari</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="main.js"></script>
+	<link href="assets/CSS/style.css" rel="stylesheet" type="text/css">
+	<script src="assets/JS/main.js"></script>
 	<style>
  	    @keyframes fade-in-out {
     	0% {
@@ -25,13 +25,18 @@
         </style>
     </head>
     <body>
+        <!--Every page of this site uses Bootstrap to make elements, like text and images, responsive-->
+          <!--Resource/code referenced while making site responsive-->
+          <!--https://www.w3schools.com/bootstrap5/index.php-->
 
         <!--Navbar-->
+          <!--Resource/code referenced while making navbar-->
+            <!--https://www.w3schools.com/bootstrap/bootstrap_navbar.asp--> 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Raga Kavari</a>
                 <button class="navbar-toggler" type="button" value="menu" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon menu">Menu</span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
@@ -59,7 +64,11 @@
                 </form>
             </div>
             <div class="col-sm-8" id="animateid">
-                <img class="img-fluid" src="assets/heroimage.jpg" id="heroImage" alt="In a rocky and dusty scene, a husky with sits on a rock grinning and looking into the distance as its owner, wearing hiking shoes and shorts, stands behind it gripping its harness.">
+                <img class="img-fluid" src="assets/images/heroimage.jpg" id="heroImage" alt="Pink sticky notes organized in a grid with a hand holding onto one that says Run a usability test">
+                
+                <!--Image animation trigger Button-->
+                  <!--Resource/code referenced while creating animation for image-->
+                    <!--https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API--> 
                 <button class="btn btn-primary top-edge" onClick="funcAnimate()">Click for animation</button> 
             </div>
         </div>
