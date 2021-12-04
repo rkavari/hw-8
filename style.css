@@ -155,3 +155,9 @@ p.problem-statement {
 .menu {
     opacity: 0%;
 }
+
+.button-style {
+    border-radius: 10px;
+    background-color: #141214;
+    border-style: none;
+}
