@@ -1,0 +1,153 @@
+* {
+    font-family: 'Poppins';
+}
+
+.navbar.navbar-expand-sm.navbar-right li a {
+    font-weight: 300;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar {
+    color: #141214;
+}
+
+#heroimage {
+    width: 710px;
+}
+
+.row {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.hero-body {
+    padding-top: 10%;
+}
+
+/* styling for project container */
+
+#project-container1 {
+    padding-top: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 60%;
+    background: #514747;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-bottom: 5%;
+  }
+
+#project-container2 {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 60%;
+    background: #514747;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-bottom: 5%;
+  }
+
+h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color:  #141214; 
+}
+
+img.projectimage {
+    width: 440px;
+    height: 330px;
+    margin-right: 10%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+p.project-desc {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner1 {
+    min-width: 100%;
+}
+
+#cover1 {
+    padding-right: 5%;
+    margin-bottom: 5%;
+}
+
+#cover2 {
+    padding-right: 5%;
+    margin-bottom: 5%;
+}
+
+.page-heading {
+    font-size: 35px;
+}
+
+.page-body {
+    margin-top: -3.5%;
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-weight:200px;
+}
+
+.mindmap {
+    margin-top: 2%;
+}
+
+h2.project-subheading {
+    font-size: 22px;
+    margin-bottom: 6%;
+    color: #141214;
+}
+
+h1.project-subheading {
+    margin-bottom: -2%;
+}
+
+#userflow {
+    width: 550px;
+    height: 355px;
+    margin-bottom: 5%;
+}
+
+#iamap {
+    width: 550px;
+    height: 355px;
+    margin-bottom: 5%;
+    
+}
+
+.edge {
+    margin-right: 15%;
+}
+
+img#banner2 {
+    height: 100%;
+    width: 100%;
+}
+
+p.problem-statement {
+    font-size: 18px;
+}
+
+.screens {
+    margin-top: -5%;
+}
